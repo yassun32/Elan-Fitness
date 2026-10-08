@@ -49,7 +49,7 @@ button:focus-visible {
 }
 
 .section {
-  padding: 43px 0;
+  padding: 25px 0;
 }
 
 .section-blanche {
@@ -211,7 +211,7 @@ button:focus-visible {
 }
 
 .hero {
-  padding: 64px 0 96px;
+  padding: 64px 0 64px;
 }
 
 .hero-contenu {
