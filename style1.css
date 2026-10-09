@@ -13,15 +13,30 @@
     border: 1px solid #E5E7EB;
     box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
 }
+
 .contact-content p {
     margin: 15px 0;
 }
+
 .contact-content input,
 .contact-content textarea {
     display: block;
     width: 25%;
     margin-bottom: 15px;
 }
+
 header img {
     width: 150px;
+}
+
+.im-petite {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.valeurs {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
 }
