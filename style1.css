@@ -40,3 +40,66 @@ header img {
     gap: 16px;
     margin-top: 32px;
 }
+menu-icon {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+@media (max-width: 1023px) {
+  .hero-contenu,
+  .apropos-contenu,
+  .cartes,
+  .valeurs {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .chiffres {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .chiffre + .chiffre {
+    border-left: none;
+    border-top: 1px solid #E5E7EB;
+    padding-top: 16px;
+  }
+
+  .pied-haut,
+  .pied-bas {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .en-tete-contenu {
+    height: auto !important;
+    padding: 14px 20px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 16px; /* Fixed '16xp' syntax error */
+  }
+}
+
+
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+
+  .contact-box {
+    flex-direction: column;
+  }
+
+  .contact-left, 
+  .contact-right {
+    width: 100%;
+  }
+}

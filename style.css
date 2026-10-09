@@ -37,7 +37,7 @@ img {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 3px solid #FF6B2C;
+  outline: 3px solid #1c0ee6;
   outline-offset: 2px;
 }
 
@@ -81,7 +81,7 @@ button:focus-visible {
 .sur-titre {
   font-size: 14px;
   font-weight: 600;
-  color: #FF6B2C;
+  color: #1c0ee6;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 12px;
@@ -98,13 +98,13 @@ button:focus-visible {
 }
 
 .bouton-principal {
-  background-color: #FF6B2C;
-  border: 1px solid #FF6B2C;
+  background-color: #1c0ee6;
+  border: 1px solid #1c0ee6;
   color: #FFFFFF;
 }
 
 .bouton-principal:hover {
-  background-color: #F05817;
+  background-color: #bd17f0;
 }
 
 .bouton-secondaire {
@@ -185,7 +185,7 @@ button:focus-visible {
   width: 10px;
   height: 10px;
   margin-left: 8px;
-  background-color: #FF6B2C;
+  background-color: #1c0ee6;
   border-radius: 50%;
 }
 
@@ -201,13 +201,13 @@ button:focus-visible {
 }
 
 .menu a:hover {
-  color: #FF6B2C;
+  color: #1c0ee6;
 }
 
 .menu .lien-actif {
-  color: #FF6B2C;
+  color: #1c0ee6;
   font-weight: 600;
-  border-bottom-color: #FF6B2C;
+  border-bottom-color: #1c0ee6;
 }
 
 .hero {
@@ -280,7 +280,7 @@ button:focus-visible {
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 36px;
   font-weight: 800;
-  color: #FF6B2C;
+  color: #150ed2;
 }
 
 .carte-avantage {
@@ -395,7 +395,7 @@ button:focus-visible {
 
 .etiquette-orange {
   background-color: #FFEDE5;
-  color: #C2410C;
+  color: #270cc2;
 }
 
 .etiquette-bleue {
@@ -449,7 +449,7 @@ button:focus-visible {
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 30px;
   font-weight: 800;
-  color: #FF6B2C;
+  color: #1c0ee6;
 }
 
 .prix span {
@@ -485,7 +485,7 @@ button:focus-visible {
 }
 
 .formule-populaire {
-  border: 2px solid #FF6B2C;
+  border: 2px solid #1c0ee6;
   box-shadow: 0 10px 25px rgba(255, 107, 44, 0.2);
 }
 
@@ -495,7 +495,7 @@ button:focus-visible {
   left: 50%;
   transform: translateX(-50%);
   padding: 4px 14px;
-  background-color: #FF6B2C;
+  background-color: #1c0ee6;
   border-radius: 999px;
   font-size: 12px;
   font-weight: 700;
